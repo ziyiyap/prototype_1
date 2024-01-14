@@ -1,10 +1,66 @@
 *{
     margin: 0;
-    padding:0;
-    font-family: myFont;
-    src: url(SF-Pro-Display-Bold.otf);
+    padding: 0;
+
 }
-.main{
+
+@font-face{
+    font-family: SFLight;
+    src:url(SFFonts/SF-Pro-Display-Light.otf);
+}
+
+@font-face{
+    font-family:SFMedium;
+    src:url(SFFonts/SF-Pro-Display-Medium.otf)
+}
+
+@font-face{
+    font-family:SFThin;
+    src:url(SFFonts/SF-Pro-Display-Thin.otf)
+}
+
+h1{
+    font-family: SFThin;
+    letter-spacing: 1px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 97px;
+}
+
+h2{
+    font-family: SFLight;
+    letter-spacing: 0.3px;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 105px;
+
+}
+
+h3{
+    background-image:linear-gradient(45deg, #666256, #959185);
+    background-clip: text;
+    color: transparent;
+    font-family: SFMedium;
+    letter-spacing: 1.5px;
+    font-size: 5.7vh;
+    text-align: center;
+    position: relative;
+    top: 110px; 
+}
+
+h4{
+    font-family: SFLight;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 128px;
+
+}
+
+.topbar{
     width: 100%;
     height: 44px;
     position: relative;
