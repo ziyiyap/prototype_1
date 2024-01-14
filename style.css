@@ -60,6 +60,7 @@ h4{
 
 }
 
+
 .topbar{
     width: 100%;
     height: 44px;
@@ -69,12 +70,31 @@ h4{
 }
 .titanium{
     width: 100%;
-    height: 84vh ;
+    height: 86vh ;
     position: relative;
     overflow: hidden;
     background-color: black;
     top: 12vh;
 }
+
+.iphone_titanium{
+    width: 81%;
+    position: relative;
+    top: 26vh;
+    left: 36vh;
+}
+
+.buy_titanium{
+    outline: none;
+    position: relative;
+    text-align: center;
+    padding: 7px 15px;
+    bottom: 22vh;
+    left: 93.5vh;
+    outline: none;
+
+}
+
 .newphoria{
     width: 100%;
     height: 84vh;
