@@ -67,7 +67,6 @@ button{
     border-radius: 10vh;
 }
 
-
 .topbar{
     width: 100%;
     height: 44px;
@@ -88,7 +87,7 @@ button{
     width: 81%;
     position: relative;
     top: 26vh;
-    left: 36vh;
+    left: 13vh;
 }
 
 .buy_titanium{
@@ -100,9 +99,33 @@ button{
     padding: 7px 15px;
     bottom: 22vh;
     left: 93.5vh;
-    outline: none;
     cursor: pointer;
     border: none;
+
+}
+
+.buy_titanium:hover{
+    background-color: #0077ED;
+}
+
+.learn_more{
+    font-family: SFLight;
+    font-weight: 600;
+    font-size: 22px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden; 
+    position: relative;
+    text-align: center;
+    padding: 7px 15px;
+    bottom: 16.5vh;
+    left: 82.5vh;
+    cursor: pointer;
+}
+
+.learn_more:hover{
+    text-decoration: underline;
 
 }
 
