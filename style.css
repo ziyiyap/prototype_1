@@ -19,6 +19,12 @@
     src:url(SFFonts/SF-Pro-Display-Thin.otf)
 }
 
+@font-face{
+    font-family:SFReg;
+    src:url(SFFonts/SF-Pro-Display-Regular.otf)
+}
+
+
 h1{
     font-family: SFThin;
     letter-spacing: 1px;
@@ -39,9 +45,10 @@ h2{
 }
 
 h3{
-    background-image:linear-gradient(45deg, #666256, #959185);
     background-clip: text;
-    color: transparent;
+    background: -webkit-linear-gradient(#2F2C23, #8A867B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: SFMedium;
     letter-spacing: 1.5px;
     font-size: 5.7vh;
@@ -74,6 +81,19 @@ button{
     overflow: hidden;
     background-color: #F2F2F2;  
 }
+
+.buttons_topbar{
+    font-family: SFReg;
+    color: #616161;
+    cursor:pointer;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
 .titanium{
     width: 100%;
     height: 86vh ;
