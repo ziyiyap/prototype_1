@@ -93,6 +93,16 @@ button{
     margin-left: 44vh;
 }
 
+.protext{
+    width: 60%;
+    position: sticky;
+    margin: 1px auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    margin-left: 43.4vh;
+}
+
 
 .topbar{
     width: 100%;
@@ -152,7 +162,26 @@ button{
 .product_icons ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 18px;
+    margin: 0 19px;
+}
+
+.product_text{
+    flex:1;
+
+}
+
+.product_text ul li{
+    list-style: none;
+    display:inline-block;
+    margin: 0 19.4px;
+    margin-bottom:4px;
+}
+
+.product_text ul li a{
+    text-decoration: none;
+    font-family: SFReg;
+    font-size: 12.4px;
+    letter-spacing: 0.25px;
 }
 
 .titanium{
