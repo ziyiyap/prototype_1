@@ -94,7 +94,7 @@ button{
 }
 
 .protext{
-    width: 60%;
+    width: 65%;
     position: sticky;
     margin: 1px auto;
     z-index: 1;
@@ -162,7 +162,7 @@ button{
 .product_icons ul li{
     list-style: none;
     display: inline-block;
-    margin: 0 19px;
+    margin: 0 18px;
 }
 
 .product_text{
@@ -173,7 +173,7 @@ button{
 .product_text ul li{
     list-style: none;
     display:inline-block;
-    margin: 0 19.4px;
+    margin: 0 18.7px;
     margin-bottom:4px;
 }
 
@@ -186,7 +186,7 @@ button{
 
 .titanium{
     width: 100%;
-    height: 86vh ;
+    height: 85vh ;
     position: relative;
     overflow: hidden;
     background-color: black;
